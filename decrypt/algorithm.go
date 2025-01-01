@@ -7,5 +7,6 @@ func Revert(str string) string {
 		character := string(rune(asciiCode - 3))
 		decryptedStr += character
 	}
+	
 	return decryptedStr
 }
